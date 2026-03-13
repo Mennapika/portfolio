@@ -6,87 +6,76 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Menna Naeim | Web Developer</title>
+<title>Menna Naeim Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
 
-
 <body>
 
-<canvas id="matrix"></canvas>
-
+<!-- NAVBAR -->
 
 <header class="header">
 
 <div class="logo">Menna.dev</div>
 
-<nav>
+<div class="hamburger" id="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+<nav id="navMenu">
+
 <a href="#home">Home</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
 <a href="#contact">Contact</a>
-</nav>
 
 <a href="https://github.com/Mennapika" target="_blank">
 <button class="github-btn">GitHub</button>
 </a>
 
+</nav>
+
 </header>
-
-
+<!-- HERO -->
 
 <section id="home" class="hero">
 
-<div class="hero-left">
+<div class="hero-text">
 
 <h3>Hello I'm</h3>
+
 <h1>Menna Naeim</h1>
 
-<h2 class="typing"></h2>
-
 <p>
-Computer Engineer with 4+ years experience in frontend & backend development.
+Computer Engineer with 4+ years experience in frontend and backend development.
 I build modern websites and web apps.
 </p>
 
 <div class="hero-buttons">
 
-<a href="#projects">
-<button class="primary-btn">View Projects</button>
-</a>
+<a href="#projects" class="btn-primary">View Projects</a>
 
-<a href="https://github.com/Mennapika" target="_blank">
-<button class="secondary-btn">GitHub</button>
-</a>
+<a href="https://github.com/Mennapika" target="_blank" class="btn-outline">GitHub</a>
 
 </div>
 
 </div>
 
-
-<div class="hero-right">
-
-<div class="avatar-container" id="avatarCard">
+<div class="hero-image">
 
 <img src="avatar.png" class="avatar">
-
-<div class="tech html">HTML</div>
-<div class="tech css">CSS</div>
-<div class="tech js">JS</div>
-<div class="tech react">React</div>
-
-</div>
 
 </div>
 
 </section>
 
-
-
+<!-- SKILLS -->
 <section id="skills" class="skills">
 
 <h2>Skills</h2>
@@ -115,14 +104,11 @@ I build modern websites and web apps.
 </section>
 
 
-
 <section id="projects" class="projects">
 
 <h2 class="section-title">Projects</h2>
 
 <div class="projects-grid">
-
-
 <!-- PROJECT CARD -->
 
 <div class="project-card">
@@ -393,6 +379,7 @@ I build modern websites and web apps.
 <span>HTML</span>
 <span>CSS</span>
 <span>JavaScript</span>
+<span>React</span>
 </div>
 
 <div class="buttons">
@@ -450,6 +437,7 @@ I build modern websites and web apps.
 <span>HTML</span>
 <span>CSS</span>
 <span>JavaScript</span>
+<span>React</span>
 </div>
 
 <div class="buttons">
@@ -507,6 +495,7 @@ I build modern websites and web apps.
 <span>HTML</span>
 <span>CSS</span>
 <span>JavaScript</span>
+<span>React</span>
 </div>
 
 <div class="buttons">
@@ -564,6 +553,7 @@ I build modern websites and web apps.
 <span>HTML</span>
 <span>CSS</span>
 <span>JavaScript</span>
+<span>React</span>
 </div>
 
 <div class="buttons">
@@ -591,19 +581,24 @@ I build modern websites and web apps.
 </section>
 
 
+<!-- CONTACT -->
 
 <section id="contact" class="contact">
 
-<h2>Let's Work Together</h2>
+<h2>Contact</h2>
+
+<p>Feel free to reach me on GitHub</p>
 
 <a href="https://github.com/Mennapika" target="_blank">
-<button class="primary-btn">Contact Me</button>
+
+<button class="btn-primary">Visit My GitHub</button>
+
 </a>
 
 </section>
 
-
-<script src="app.js"></script>
+<script src="scripy.js"></script>
 
 </body>
+
 </html>
